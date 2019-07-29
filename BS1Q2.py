@@ -1,7 +1,7 @@
-skd=int(input())
-if(skd>0 and skd%2==0):
+sk=int(input())
+if(sk>0 and sk%2==0):
   print('Even')
-elif(skd>0 and skd%2!=0):
+elif(sk>0 and sk%2!=0):
   print('Odd')
 else:
   print('invalid')
